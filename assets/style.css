@@ -8,10 +8,12 @@
     text-align: center;
     font-weight: 100;
     font-size: 10em;
+    color: #586e75;
 }
 
 body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
+    background-color: #fdf6e3;
 }
