@@ -8,12 +8,20 @@
     src: url(font/Roboto-Black.ttf);
 }
 
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(font/Roboto-Bold.ttf);
+}
+
 #title {
     font-family: 'Roboto-Thin';
     text-align: center;
     font-weight: 100;
     font-size: 10em;
     color: #586e75;
+    z-index: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 body {
@@ -21,4 +29,58 @@ body {
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
     background-color: #fdf6e3;
+}
+
+#personal img {
+    height: 256px;
+    width: 256px;
+}
+
+.linkbox img {
+    padding-top: 10px;
+}
+
+.linkbox h2 {
+    font-family: Roboto-Thin;
+}
+
+.linkbox {
+    background-color: #eee8d5;
+    height: 350px;
+    width: 360px;
+    /*border: 1px solid #93a1a1;*/
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    text-align: center;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+#content {
+    float: center;
+    position: relative;
+    text-align: center;
+
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+
+    border: 5px dotted red;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
 }
