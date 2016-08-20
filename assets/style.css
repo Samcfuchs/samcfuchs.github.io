@@ -41,16 +41,22 @@ body {
     background-color: #fdf6e3;
 }
 
-.linkbox > img {
+.linkbox img {
     padding: 10px;
     height: 256px;
     width: 256px;
 }
 
-.linkbox > h2 {
+.linkbox h2 {
     font-family: Roboto-Thin;
+    font-size: 35px;
     color: #586e75;
     padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.linkbox a {
+    text-decoration: none;
 }
 
 .linkbox:hover {
