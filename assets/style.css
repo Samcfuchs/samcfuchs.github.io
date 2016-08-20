@@ -18,6 +18,11 @@
     src: url(font/Roboto-Medium.ttf);
 }
 
+@font-face {
+    font-family: 'Raleway';
+    src: url(font/Raleway-Regular.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

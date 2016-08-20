@@ -7,3 +7,22 @@
     z-index: 1;
     margin: 10px 20px;
 }
+
+.return {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.return img {
+    height: 128px;
+    width: 128px;
+}
+
+div.content {
+    padding-left: 20px;
+}
+
+div.content p {
+    font-family: Raleway;
+}
