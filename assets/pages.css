@@ -1,0 +1,9 @@
+.page-title {
+    font-family: 'Roboto-Thin';
+    text-align: left;
+    font-weight: 100;
+    font-size: 5em;
+    color: #586e75;
+    z-index: 1;
+    margin: 10px 20px;
+}
