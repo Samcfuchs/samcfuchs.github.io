@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto-100.ttf);
+}
+
+#title {
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 100;
+    font-size: 10em;
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
