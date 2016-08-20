@@ -13,7 +13,12 @@
     src: url(font/Roboto-Bold.ttf);
 }
 
-.title {
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto-Medium.ttf);
+}
+
+#title {
     font-family: 'Roboto-Thin';
     text-align: center;
     font-weight: 100;
@@ -37,11 +42,14 @@ body {
 }
 
 .linkbox img {
-    padding-top: 10px;
+    padding: 10px;
+    height: 256px;
+    width: 256px;
 }
 
-.linkbox h2 {
+h2 {
     font-family: Roboto-Thin;
+    color: #586e75;
 }
 
 .linkbox:hover {
@@ -50,41 +58,23 @@ body {
 
 .linkbox {
     background-color: #eee8d5;
-    height: 350px;
-    width: 360px;
-    /*border: 1px solid #93a1a1;*/
+    text-align: center;
     border-radius: 10px;
-    text-align: center;
-
-    margin-left: 10px;
-    margin-right: 10px;
-
-    vertical-align: top;
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
+    margin: 1px 10px;
+    flex: 1;
 }
 
-#container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    text-align: center;
-	width: 90%;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
+.grid {
+  display: flex;
 }
-#container > div {
 
-}
-.stretch {
-    width: 100%;
-    display: inline-block;
-    font-size: 0;
-    line-height: 0;
+@media (max-width:900px) {
+    .flex-grid {
+        display: block;
+
+        .linkbox {
+            width: 100%;
+            margin: 0 0 10px 0;
+        }
+    }
 }
