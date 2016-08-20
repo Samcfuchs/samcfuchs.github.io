@@ -74,8 +74,6 @@ body {
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
-
-    border: 5px dotted red;
 }
 
 .stretch {
