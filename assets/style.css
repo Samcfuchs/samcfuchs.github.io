@@ -30,7 +30,6 @@
 }
 
 body {
-    -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
     background-color: #fdf6e3;
@@ -41,7 +40,7 @@ body {
     width: 256px;
 }
 
-.linkbox img {
+.linkbox > img {
     padding: 10px;
     height: 256px;
     width: 256px;
@@ -53,11 +52,14 @@ h2 {
 }
 
 .linkbox:hover {
+    background-color: #eee8d5;
+}
+
+.linkbox:active {
     background-color: #93a1a1;
 }
 
 .linkbox {
-    background-color: #eee8d5;
     text-align: center;
     border-radius: 10px;
     margin: 1px 10px;
