@@ -50,6 +50,7 @@ body {
     padding: 10px;
     height: 256px;
     width: 256px;
+    resize: both;
 }
 
 .linkbox h2 {
@@ -85,12 +86,46 @@ body {
 }
 
 @media (max-width:900px) {
+    #title {
+        font-size: 9em;
+    }
+
     .grid {
         display: block;
 
         .linkbox {
             width: 100%;
-            margin: 0 0 10px 0;
+            margin: 10px;
         }
+    }
+}
+
+@media (max-width:800px) {
+    #title {
+        font-size: 8em;
+    }
+}
+
+@media (max-width:700px) {
+    #title {
+        font-size: 7em;
+    }
+}
+
+@media (max-width:625px) {
+    #title {
+        font-size: 6em;
+    }
+}
+
+@media (max-width:540px) {
+    #title {
+        font-size: 5em;
+    }
+}
+
+@media (max-width:460px) {
+    #title {
+        font-size: 4em;
     }
 }
