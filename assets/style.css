@@ -84,11 +84,7 @@ body {
   display: flex;
 }
 
-@media (max-width:900px) {
-    #title {
-        font-size: 9em;
-    }
-
+@media (max-width:1100px) {
     .grid {
         display: block;
 
@@ -96,6 +92,12 @@ body {
             width: 100%;
             margin: 10px;
         }
+    }
+}
+
+@media (max-width:900px) {
+    #title {
+        font-size: 9em;
     }
 }
 
