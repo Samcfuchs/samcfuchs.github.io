@@ -67,11 +67,10 @@ body {
 
 .linkbox:hover {
     background-color: #eee8d5;
-    /*border: 1px solid #839496;*/
 }
 
 .linkbox:active {
-    background-color: #93a1a1;
+    -webkit-box-shadow: 0 0 10px 5px #93a1a1;
 }
 
 .linkbox {
