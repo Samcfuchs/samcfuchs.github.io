@@ -12,13 +12,18 @@
     position: fixed;
     top: 0;
     right: 0;
+    padding: 5px;
 }
 
 .return img {
-    height: 128px;
-    width: 128px;
+    height: 64px;
+    width: 64px;
+    border-radius: 5px;
 }
 
+.return:hover img {
+    -webkit-box-shadow: 0 0 10px 3px #56abf5;
+}
 div.content {
     padding-left: 20px;
 }
