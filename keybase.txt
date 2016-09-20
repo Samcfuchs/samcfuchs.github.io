@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/samcfuchs
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://samcfuchs.github.io
+  * I am samcfuchs (https://keybase.io/samcfuchs) on keybase.
+  * I have a public key with fingerprint 94FE 3A9A C2F2 8DB9 7AAB  D91C EE45 6FBD 2E0B 26A4
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01019828f950201470cc148c931568124382b0cbe8780a607d0c7c2caa38d3495ebb0a",
+            "fingerprint": "94fe3a9ac2f28db97aabd91cee456fbd2e0b26a4",
+            "host": "keybase.io",
+            "key_id": "ee456fbd2e0b26a4",
+            "kid": "01019828f950201470cc148c931568124382b0cbe8780a607d0c7c2caa38d3495ebb0a",
+            "uid": "bd930556a49234280c9f5b766175c619",
+            "username": "samcfuchs"
+        },
+        "service": {
+            "hostname": "samcfuchs.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1474339335,
+    "expire_in": 157680000,
+    "prev": "3fd61bcbf96b92dc508ea53ee752cdddeb6257fd3d3fc9aadceedae9757e8e9e",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIiAnicrVJbSBRRGN7NNlPSxAoizWDAF1vszOXMzFkySKKLBUYWIQjLuY07qLvb
+zqwXTOhJyIeQrIeiC5StBCqVWGhlZUJBVEgvRWYGEuGFsnvQ7YzVS/TYeTmcn+/7
+/u/7zz+SlebL9E/aRbO50xub/fdunU769k6cSW+WSIw1SaFmqYbPX7yWcccN19hM
+CklABjIyFdNCEChA1gxAqayZFKky1E1Z0VRTIYASbhomwDowGKAGVSjGqslUDUFO
+CMBSULLsaDVPxBN21BWySLO4ihGmiqWYjCADY8KQTDnXoG4RpnBAFB1rghiJOR5D
+mCPY4cV2TNTEIzxv7x/4/+w7OS8nzKkAQtEBKaqmmIAiCxJD12UDUl1GHtDhiSiu
+4wLt4DpqJWnEkVqCkijX25R7k/Wi/A0prrbdSJL8yhVPxNwYjdUKQMR1407IE3Cb
+4h6jgZPwb60wsaNMzFMw6nnCsWNRKSQLJHVtT1yk1VQVqSoMSrwxbid42PYQ0NBN
+II7Xh9cLSdViukwosZBOkMIoBCbHUOXcgApljHGiK9CwmMpUiyKMmfgfhjkyoMFN
+jrjkpdsXjUkhVdjE1V4uuzqK3WSCSy3DN6sW+vyZvkWBBd6e+TIzcv5s37LLi30H
+i/xzLVOdpVt7ytfaK0eXd/0Ye3Lx2GTF+Zydj47viJSGpqv2VWbIhRVO1X1wcPuX
+p+7HNa1569tX38++0lmmnxrIasjefLZjG9zd1m2xh8lDQ0bRqubar/1bMgY7du3v
+oJ9f9tYGHp+w3gxtSqWe+QuPDmbV5Ounu5zQSVAy09/74Nz30YFIX1DPu94ynv8h
+913W7S8T79PG8MCgM4yLOy+kZuBbo0Z7PWsV9h5a2eMr+IQKSl5kbAXupYK6pUtK
+Q6fG+4+1Pa9sPx5YkSlNkiNpfbtxY/vct4131l07HCjfkJ56uPbG3ame4NWK7pHe
+C32vDujjgXrfnta3bcNlPwEBlUL6
+=Zkca
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/samcfuchs
+
+==================================================================
