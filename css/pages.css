@@ -24,6 +24,7 @@
 .return:hover img {
     -webkit-box-shadow: 0 0 10px 3px #93a1a1;
 }
+
 div.content {
     padding-left: 20px;
 }
@@ -31,6 +32,12 @@ div.content {
 div.content p {
     font-family: Raleway;
     font-size: 20px;
+}
+
+#profile {
+    height: 512px;
+    width: 512px;
+    float: left;
 }
 
 @media (max-width:512px) {
