@@ -15,7 +15,7 @@ body {
 }
 
 #title {
-    color: var(base01);
+    color: var(--base01);
 }
 
 #themeswitcher svg {
