@@ -35,9 +35,19 @@ div.content p {
 }
 
 #profile {
-    height: 512px;
-    width: 512px;
-    float: left;
+    image-rendering: pixelated;
+    height:100vh;
+    /*width: 50vh;
+    position: fixed;*/
+}
+
+div.flex-container {
+    display: flex;
+}
+
+div.flex-box {
+    flex-grow: 1;
+    flex: 1;
 }
 
 @media (max-width:512px) {
