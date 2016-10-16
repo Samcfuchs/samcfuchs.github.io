@@ -30,6 +30,7 @@ div.content {
 
 div.content p {
     font-family: Raleway;
+    font-size: 20px;
 }
 
 @media (max-width:512px) {
