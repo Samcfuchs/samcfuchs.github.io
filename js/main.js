@@ -1,4 +1,4 @@
-var isLight = false;
+var isLight = true;
 
 function switchTheme() {
     console.log('Switching theme');
