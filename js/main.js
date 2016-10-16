@@ -1,13 +1,32 @@
-var isLight = true;
+function start() {
+    applyTheme();
+    addListener();
+}
 
 function switchTheme() {
-    if (isLight) {
+    if (isLight()) {
         goDark();
     } else {
         goLight();
     }
+}
 
-    isLight = !isLight;
+function applyTheme() {
+    if (isLight()) {
+        goLight();
+    } else {
+        goDark();
+    }
+}
+
+function isLight() {
+    var is = localStorage.getItem('theme') == "light";
+
+    if (is == null) {
+        localStorage.setItem('theme', "light");
+    }
+
+    return localStorage.getItem('theme') == "light";
 }
 
 function loadCSS(filename) {
@@ -25,6 +44,8 @@ function goDark() {
     var css = document.getElementsByClassName('auto')[0];
     head.removeChild(css);
     loadCSS("css/dark.css")
+
+    localStorage.setItem('theme', "dark");
 }
 
 function goLight() {
@@ -32,6 +53,10 @@ function goLight() {
     var css = document.getElementsByClassName('auto')[0];
     head.removeChild(css);
     loadCSS("css/light.css")
+
+    localStorage.setItem('theme', "light");
 }
 
-document.getElementById('circle').addEventListener('click', switchTheme);
+function addListener() {
+    document.getElementById('circle').addEventListener('click', switchTheme);
+}
