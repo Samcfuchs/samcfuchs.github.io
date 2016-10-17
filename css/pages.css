@@ -37,8 +37,6 @@ div.content p {
 #profile {
     image-rendering: pixelated;
     height:100vh;
-    /*width: 50vh;
-    position: fixed;*/
 }
 
 div.flex-container {
