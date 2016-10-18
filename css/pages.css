@@ -37,6 +37,7 @@ div.content p {
     font-family: Raleway;
     font-size: 25px;
     text-align: justify;
+    padding: 20px;
 }
 
 #profile {
