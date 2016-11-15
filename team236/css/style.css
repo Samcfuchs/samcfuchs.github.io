@@ -2,15 +2,18 @@ body {
     background-color: #1f419a;
 }
 
-h1,h2 {
+div {
     text-align: center;
-    font-family: "Arial Black", Gadget, sans-serif;
     color: white;
+}
+
+h1 {
+    font-family: Roboto;
     font-size: 5em;
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Raleway;
     font-size: 4em;
 }
 
