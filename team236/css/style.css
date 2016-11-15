@@ -32,6 +32,7 @@ h2 {
 #motto {
     font-family: Raleway;
     font-size: 3em;
+    font-style: italic;
 }
 
 .navbar {
@@ -63,4 +64,31 @@ h2 {
 .navbar div a {
     text-decoration: none;
     color: white;
+}
+
+#learn {
+    margin: 100 auto;
+    width: 250px;
+    background: #ffffff;
+    position: relative;
+
+    /* Border */
+    -webkit-border-radius: 1;
+    -moz-border-radius: 1;
+    border-radius: 1px;
+    border-style: none;
+
+    padding: 10px 20px 10px 20px;
+}
+
+#learn:hover {
+    background: #ebebeb;
+    text-decoration: none;
+}
+
+#learn a {
+    font-size: 30px;
+    font-family: Roboto-Bold;
+    color: #1f419a;
+    text-decoration: none;
 }
