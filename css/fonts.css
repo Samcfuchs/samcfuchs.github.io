@@ -22,3 +22,13 @@
     font-family: 'Raleway';
     src: url(../font/Raleway-Regular.ttf);
 }
+
+@font-face {
+    font-family: 'Futura-Medium';
+    src: url(../font/Futura-Medium-bt.ttf);
+}
+
+@font-face {
+    font-family: 'Futura-Book';
+    src: url(../font/Futura-Book.ttf);
+}

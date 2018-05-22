@@ -5,7 +5,8 @@
 }
 
 #title {
-    font-family: 'Roboto-Thin';
+    font-family: 'Futura-Medium';
+    letter-spacing: 2px;
     text-align: center;
     font-weight: 100;
     font-size: 10em;
@@ -18,6 +19,90 @@
 body {
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
+    background-color: black;
+    text-decoration-color: white;
+    color: white;
+}
+
+#body {
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    align-items: center;
+}
+
+h2,h3,h4 {
+    font-family: 'Futura-Book';
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+.subhead {
+    font-style: italic;
+    font-family: Arial;
+    color: #a0a0a0;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    float: right;
+    top: 0;
+    right: 20px;
+    height: 700px;
+    width: 200px;
+    margin-right: 10px;
+    top: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+#sidebar img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+#sidebar button {
+    width:100%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+
+    cursor: pointer;
+
+    border:none;
+    background: black;
+    border: 2px solid white;
+    color: white;
+
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+
+#sidebar button:hover {
+    background-color: grey;
 }
 
 .linkbox img {
