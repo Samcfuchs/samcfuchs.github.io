@@ -42,12 +42,11 @@ h3 {
     color: #a0a0a0;
 }
 
-p {
+p, li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #container {
-    border: 1px dotted red;
     width: 100%;
     padding-right: 240px;
 }
