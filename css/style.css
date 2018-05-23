@@ -164,6 +164,7 @@ button {
     width: 50px;
 }
 
+/*
 @media (max-width:1100px) {
     .grid {
         display: block;
@@ -210,3 +211,4 @@ button {
         font-size: 4em;
     }
 }
+*/
