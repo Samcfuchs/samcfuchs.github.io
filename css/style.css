@@ -1,232 +1,156 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-#title {
-    font-family: 'Futura-Medium';
-    letter-spacing: 2px;
-    text-align: center;
-    font-weight: 100;
-    font-size: 10em;
-    z-index: 1;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
+h1, h2, h3 {
+	margin: 10px;
 }
 
-body {
-    -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
-    background-color: black;
-    text-decoration-color: white;
-    color: white;
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
-h2,h3,h4 {
-    font-family: 'Futura-Book';
+.navbar {
+	width:100%;
+	z-index: 999;
+	margin:0;
+	border-radius: 0;
+	position:sticky;
+	top:0;
 }
 
-h2 {
-    font-size: 40px;
+#header {
+	height: 100vh;
+	background-image: url("../img/artsycar.JPG");
+	-webkit-text-fill-color: azure;
+	vertical-align: middle;
+	background-position-y: 00%;
+	background-position-x: 40%;
+	background-attachment: fixed;
 }
 
-h3 {
-    padding-left: 10px;
+#header div {
+	position: relative;
+	width: fit-content;
+	align-self: center;
+	padding: 25px;
+	margin: auto;
+	border: 3px solid white;
+	top: 40%;
+	transform: translateY(-50%);
+	background-color: rgba(255, 255, 255, .5);
+
+	font-family: "Futura-Medium";
+	text-transform: uppercase;
 }
 
-.subhead {
-    font-style: italic;
-    font-family: Arial;
-    color: #a0a0a0;
-    text-indent: 0;
-    padding-bottom: 10px;
+.text-center {
+	text-align: center;
 }
 
-p, li {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-indent: 1cm;
+.text-pad {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 30px;
+	padding-bottom: 40px;
 }
 
-li {
-    text-indent: 0;
+.wide-img {
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-ul {
-    margin-bottom:20px;
-    list-style-position: inside;
+#robot-img {
+	background-image: url("../img/ctwat2017.jpg");
 }
 
-#container {
-    width: 100%;
-    padding-right: 240px;
+#robot-title {
+	background-color: #1f419a;
+	-webkit-text-fill-color: whitesmoke;
 }
 
-#body {
-    width: 600px;
-    margin: auto;
-    padding: 5px;
-    padding-bottom: 20px;
-    align-items: center;
+#robot-content {
+	padding: 40px;
+	height: 100%;
 }
 
-#sidebar {
-    position: -webkit-sticky;
-    position: sticky;
-    float: right;
-    top: 0;
-    right: 20px;
-    height: 700px;
-    width: 200px;
-    margin-right: 10px;
-    top: 20px;
-    margin: auto;
-    text-align: center;
+#robot-content div div {
+	background: #ebebeb;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: justify;
+	height:100%;
 }
 
-#sidebar img {
-    width: 100%;
-    border-radius: 50%;
+#cornell-img {
+	background-image: url("../img/cornell_night.jpg");
 }
 
-button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
+#cornell {
+	background-color: #b31b1b;
+	color: #f7f7f7;
 }
 
-#sidebar button {
-    width:100%;
-    height: 50px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 110%;
-
-    cursor: pointer;
-
-    border:none;
-    background: black;
-    border: 2px solid white;
-    color: white;
-
-    -webkit-transition-duration: 0.2s; /* Safari */
-    transition-duration: 0.2s;
+#volunteering {
+	background-color: #598e4f;
+	-webkit-text-fill-color: whitesmoke;
 }
 
-#sidebar button:hover {
-    background-color: grey;
+#volunteering div.row div {
+	height: 300px;
+	background-color: ;
 }
 
-.linkbox img {
-    padding: 10px;
-    height: 256px;
-    width: 256px;
-    resize: both;
+#footer {
+	padding: 0;
+	background-color: #444;
+	align-content: center;
+	align-items: center;
+
 }
 
-.linkbox h2 {
-    font-family: Roboto-Thin;
-    font-size: 35px;
-    padding-bottom: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
+#footer a {
+	text-transform: lowercase;
+	text-align: center;
+	font-family: Raleway;
+	text-decoration: none;
+	color: white;
+	transition: color 0.5s ease;
 }
 
-.linkbox a {
-    text-decoration: none;
+#footer a:hover {
+	color: #aaaaaa;
 }
 
-.linkbox:active {
-    -webkit-box-shadow: 0 0 10px 5px #93a1a1;
+#footer a#github:hover {
+	color: #f5f5f5;
 }
 
-.linkbox {
-    text-align: center;
-    border-radius: 10px;
-    margin: 1px 10px;
-    flex: 1;
+#footer a#instagram:hover {
+	color: #dd2a7b;
 }
 
-.linkbox:hover img {
-    /*
-    -webkit-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
-    -webkit-transition: .5s;
-    transition: .5s;
-    */
+#footer a#facebook:hover {
+	color: #3b5998
 }
 
-
-#personal img {
-    border-radius: 128px;
+#footer a#twitter:hover {
+	color: #1da1f2;
 }
 
-.grid {
-  display: flex;
+#footer a#spotify:hover {
+	color: #1db954;
 }
 
-#themeswitcher {
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 5px;
-
-    height: 50px;
-    width: 50px;
+#footer table {
+	width: 100%;
 }
 
-/*
-@media (max-width:1100px) {
-    .grid {
-        display: block;
-
-        .linkbox {
-            width: 100%;
-            margin: 10px;
-        }
-    }
+#footer table,th,td {
+	padding: 10px;
 }
-
-@media (max-width:900px) {
-    #title {
-        font-size: 9em;
-    }
-}
-
-@media (max-width:800px) {
-    #title {
-        font-size: 8em;
-    }
-}
-
-@media (max-width:700px) {
-    #title {
-        font-size: 7em;
-    }
-}
-
-@media (max-width:625px) {
-    #title {
-        font-size: 6em;
-    }
-}
-
-@media (max-width:540px) {
-    #title {
-        font-size: 5em;
-    }
-}
-
-@media (max-width:460px) {
-    #title {
-        font-size: 4em;
-    }
-}
-*/
