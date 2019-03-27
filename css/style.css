@@ -1,156 +1,64 @@
 * {
-	margin:0;
-	padding: 0;
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-h1, h2, h3 {
-	margin: 10px;
+#content {
+	width: 500px;
+	font-family: "Nunito";
+	margin-left: 50px;
+	font-size: 24px;
 }
 
-.container-fluid {
-	padding-top: 70px;
-	padding-bottom: 70px;
+@keyframes fadeIn {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
 }
 
-.navbar {
-	width:100%;
-	z-index: 999;
-	margin:0;
-	border-radius: 0;
-	position:sticky;
-	top:0;
+#title {
+	font-family: "Bungee";
+	font-size: 80px;
 }
 
-#header {
-	height: 100vh;
-	background-image: url("../img/artsycar.JPG");
-	-webkit-text-fill-color: azure;
-	vertical-align: middle;
-	background-position-y: 00%;
-	background-position-x: 40%;
-	background-attachment: fixed;
+ul {
+	list-style-type: none;
 }
 
-#header div {
-	position: relative;
-	width: fit-content;
-	align-self: center;
-	padding: 25px;
-	margin: auto;
-	border: 3px solid white;
-	top: 40%;
-	transform: translateY(-50%);
-	background-color: rgba(255, 255, 255, .5);
-
-	font-family: "Futura-Medium";
-	text-transform: uppercase;
+a {
+	text-decoration: underline;
+	color: inherit;
+	cursor: pointer;
+	-webkit-transition: color 250ms ease;
 }
 
-.text-center {
-	text-align: center;
+a:hover {
+	color: rgb(255, 149, 78);
 }
 
-.text-pad {
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 30px;
-	padding-bottom: 40px;
-}
+#spotify:hover { color: #1db954; }
 
-.wide-img {
-	height: 400px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+#robots:hover { color: #1f419a; }
 
-#robot-img {
-	background-image: url("../img/ctwat2017.jpg");
-}
+#insta:hover { color: #e1306c; }
 
-#robot-title {
-	background-color: #1f419a;
-	-webkit-text-fill-color: whitesmoke;
-}
+#fb:hover { color: #3c5a99; }
 
-#robot-content {
-	padding: 40px;
-	height: 100%;
-}
+#shake:hover { color: #b31b1b; }
 
-#robot-content div div {
-	background: #ebebeb;
-	border-radius: 10px;
-	padding: 20px;
-	text-align: justify;
-	height:100%;
-}
-
-#cornell-img {
-	background-image: url("../img/cornell_night.jpg");
-}
-
-#cornell {
-	background-color: #b31b1b;
-	color: #f7f7f7;
-}
-
-#volunteering {
-	background-color: #598e4f;
-	-webkit-text-fill-color: whitesmoke;
-}
-
-#volunteering div.row div {
-	height: 300px;
-	background-color: ;
-}
+#ds:hover { color: #7d3c98; }
 
 #footer {
-	padding: 0;
-	background-color: #444;
-	align-content: center;
-	align-items: center;
-
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
 }
 
-#footer a {
-	text-transform: lowercase;
-	text-align: center;
-	font-family: Raleway;
-	text-decoration: none;
-	color: white;
-	transition: color 0.5s ease;
+#footer > a {
+	border-radius: 5px;
+	padding: 5px;
+	-webkit-transition: color 250ms;
 }
 
-#footer a:hover {
-	color: #aaaaaa;
-}
-
-#footer a#github:hover {
-	color: #f5f5f5;
-}
-
-#footer a#instagram:hover {
-	color: #dd2a7b;
-}
-
-#footer a#facebook:hover {
-	color: #3b5998
-}
-
-#footer a#twitter:hover {
-	color: #1da1f2;
-}
-
-#footer a#spotify:hover {
-	color: #1db954;
-}
-
-#footer table {
-	width: 100%;
-}
-
-#footer table,th,td {
-	padding: 10px;
+#footer > a:hover {
 }

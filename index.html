@@ -1,224 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Sam Fuchs</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nunito">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bungee">
+	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
 
-<div class="container-fluid text-center wide-img" id="header">
-	<div>
-		<h1>Sam Fuchs</h1>
+<div id="content">
+	<h1 id='title'>Sam Fuchs</h1>
+
+	<div id='body'>
+		<ul>
+			<li>Plays <a href="https://twitter.com/shakeultimate" id='shake'>ultimate frisbee</a></li>
+			<li>Makes <a id='spotify' href='https://open.spotify.com/user/hoodedgryphon?si=0_sPh51lTe-FeXbph1ijKg'>playlists</a></li>
+			<li>Reads books</li>
+			<li><a id='ds' href="/datascience/">Analyzes</a> data</li>
+			<li>Studies <a href="http://github.com/samcfuchs">computer science</a></li>
+			<li>
+				<a id='robots' href="http://github.com/team236">Programs</a> 
+				<a id='robots' href="http://technoticks236.com">robots</a>
+			</li>
+			<li>Takes photos</li>
+			<li>Is from Old Lyme, Connecticut</li>
+		</ul>
+	</div>
+
+	<div id='footer'>
+		<a id='gh' href="http://github.com/samcfuchs">Github</a>
+		<a id='fb' href="http://facebook.com/samcfuchs">Facebook</a>
+		<a id='spotify' href="https://open.spotify.com/user/hoodedgryphon?si=0_sPh51lTe-FeXbph1ijKg">Spotify</a>
+		<a id='insta' href="http://instagram.com/samcfuchs">Instagram</a>
 	</div>
 </div>
-
-<nav class="navbar navbar-inverse">
-	<div class='container'>
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span> 
-			</button>
-			<a class='navbar-brand' href='#'>Sam</a>
-		</div>
-		<div class="collapse navbar-collapse" id="navbar">
-			<ul class="nav navbar-nav">
-				<li class="active"><a>Home</a></li>
-				<li><a href="#robot-title">Robotics</a></li>
-				<li><a href="#volunteering">Volunteering</a></li>
-			</ul>
-		</div>
-	</div>
-</nav>
-
-<div class="container-fluid text-center text-pad">
-	<h1>About Me</h1>
-	<p>
-		I'm an aspiring computer scientist from Old Lyme, Connecticut, a small
-		shoreline town at the mouth of the Connecticut River. I came to Cornell
-		University in Ithaca, New York, in the summer of 2018, and since my
-		arrival, I've focused on my career in Data Science while enjoying
-		ultimate frisbee on the Shake.
-	</p>
-</div>
-
-<div class="container-fluid wide-img" id='robot-img'></div>
-
-<div class="container-fluid text-center text-pad" id="robot-title">
-	<h1>Robotics</h1>
-	<p>
-		For four years, I took on a leadership role on my highschool FIRST
-		robotics team, the Techno-Ticks. As a Hall of Fame team, we had large
-		shoes to fill every year. As the lead programmer, I was responsible for
-		all the code that ran and controlled its movement on the field. As a team
-		leader, I helped to coordinate students and oversee the design,
-		prototyping, and manufacturing stages through the 6-week build season and
-		assumed a continuing role in developing our strategy and incorporating
-		data into our analysis process to gain a better understanding of the game.
-	</p>
-</div>
-
-<!--
-<div class="container-fluid text-center" id="robot-content">
-	<div class="col-sm-3" id="2015">
-		<div>
-			<h3>Recycle Rush</h3>
-			<p>
-				My freshman year was a formative one, as I was dropped into a wholly new
-				and unfamiliar competition and had to quickly learn how to work within my
-				team and learn new skills that would become crucial in the coming years. I
-				began by learning the wiring systems of the robot, building a number of
-				prototype electrical boards to allow testing around the shop. Soon, I
-				gravitated toward the programming subteam, where Jared DiCarlo helped
-				teach me to write sophisticated programs to control the robot autonomously
-				and to aid driver control during the teleoperated period of the match.
-			</p>
-			<p>
-				Finally, during the competition season, I worked with other students to
-				scout other teams, producing data that helped our team select alliances
-				and formulate match strategy. My first exposure to scouting came on the
-				data-gathering side, but I quickly became interested in how our data was
-				used to help the team.
-			</p>
-		</div>
-	</div>
-	<div class="col-sm-3" id="2016">
-		<div>
-			<h3>Stronghold</h3>
-			<p>
-				Jared's graduation left the team with only one programmer with one year
-				of experience, a situation that did not inspire great optimism among the
-				students. However, with the help of a number of mentors, friends, and
-				team members, I was able to step up to the challenge, programming an
-				effective autonomous mode and enabling one of our most powerful and
-				resilient robots to be utilized fully by Nate Bersing, one of the most
-				experienced and skilled drivers our team has had. Now a driver, I worked
-				closely with Nate to understand what he wanted and expected from the
-				robot, and then worked to implement those expectations in the interface
-				I designed for him.
-			</p>
-			<p>
-				Having spent much of our build season teaching myself advanced robot
-				control and waiting for prototyping and fabrication of the robot to
-				finish, I entered the competition season still tuning many of our
-				important closed-loop systems, a process that often requires weeks of
-				dedicated time. Meanwhile, I worked closely with our scouting lead to
-				refine our data collection to meet the needs of our strategy and
-				organize our data for easier processing and application.
-						</p>
-		</div>
-	</div>
-	<div class="col-sm-3" id="2017">
-		<div>
-			<h3>Steamworks</h3>
-		</div>
-	</div>
-	<div class="col-sm-3" id="2018">
-		<div>
-			<h3>Power Up</h3>
-			<p>
-			In 2018, I assumed a number of major leadership roles on the team.
-			Throughout build season, I corresponded with the members of each subteam
-			in order to gain a high-level understanding of the status of the project,
-			and organized our scheduling accordingly. I had a complete understanding
-			of every component of the robot-content and used this knowledge
-			extensively, as I was involved in virtually every maintenance and
-			debugging process throughout the season.
-			</p>
-			<p>
-			Most important to me, however, was my role in the team's scouting and
-			strategy. I introduced our team to the use of external databases, which
-			allowed us to make predictions about teams that we had no scouting data
-			on, and formulate strategies early on in the World Championship
-			tournament, when other teams didn't know what to expect. This new
-			data-driven scouting also allowed us to come to broader conclusions about
-			the state of the metagame as a whole by analyzing thousands of matches
-			simultaneously, giving us an unprecedented leg up on our competition.
-			</p>
-		</div>
-	</div>
-</div>-->
-
-<div class="container-fluid wide-img" id='cornell-img'></div>
-
-<div class="container-fluid text-center text-pad" id="cornell">
-	<h1>Cornell University</h1>
-	I'm a freshman in the Cornell University College of Arts and Sciences,
-	majoring in Computer Science with a vector in Data Science and Analytics. In
-	addition to my coursework, I'm a member of the Cornell Data Science Project
-	team, a student-led organization that works on developing powerful AI-based
-	models and visualizations to analyze and communicate data.
-</div>
-
-<!--
-<div class="container-fluid text-center" id="volunteering">
-	<div>
-		<h1>Volunteering</h1>
-		Throughout my highschool years, I worked hard to volunteer regularly
-		to help communities and causes that were (and are) important to me.
-		Check out some of the projects I worked on!
-	</div>
-	<div class='row' id="volunteering-content">
-		<div class='col-sm-4'>
-			<h2>Appalachian Mountain Club</h2>
-			<blockquote>
-				<p>
-					Founded in 1876, the Appalachian Mountain Club promotes the
-					protection, enjoyment, and understanding of the mountains,
-					forests, waters, and trails of America’s Northeast and
-					Mid-Atlantic regions.
-				</p>
-				<footer>outdoors.org</footer>
-			</blockquote>
-		</div>
-		<div class='col-sm-4'>
-			<h2>Race for Chase</h2>
-			<blockquote>
-				<p>
-					To turn tragedy into triumph by healing and strengthening our
-					families and communities.
-				</p>
-				<footer>cmakfoundation.org</footer>
-			</blockquote>
-		</div>
-		<div class='col-sm-4'>
-			<h2>Student Conservation Association</h2>
-			<blockquote>
-				<p>
-					SCA’s mission is to build the next generation of conservation
-					leaders and inspire lifelong stewardship of the environment and
-					communities by engaging young people in hands-on service to the
-					land.
-				</p>
-				<footer>thesca.org</footer>
-			</blockquote>
-		</div>
-	</div>
-</div>-->
-
-<div class="container-fluid text-pad text-center" id="footer">
-	<table>
-		<tr>
-			<td><a id="github" href="github.com/samcfuchs">Github</a></td>
-			<td><a id="instagram" href="instagram.com/samcfuchs">Instagram</a></td>
-			<td><a id="facebook" href="">Facebook</a></td>
-			<td><a id="twitter" href="twitter.com/samcfuchs">Twitter</a></td>
-			<td><a id="spotify" href="">Spotify</a></td>
-		</tr>
-	</table>
-</div>
-
 
 </body>
-</html>
