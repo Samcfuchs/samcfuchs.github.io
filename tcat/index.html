@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+</head>
+
+<body>
+    <script>
+        frequency = 2637
+        duration = 0.160
+        ramp = .005
+
+        var context
+
+        function init() {
+            context = new AudioContext()
+            document.body.style.backgroundColor = "black"
+
+            window.removeEventListener("click",init)
+            window.addEventListener("mousedown", beep)
+        }
+
+        function beep() {
+            console.log("beep")
+            //context = new AudioContext()
+            var o = context.createOscillator()
+            var g = context.createGain()
+            
+            o.frequency.value = frequency
+            o.type = 'sine'
+
+            o.connect(g)
+            g.connect(context.destination)
+
+            o.start()
+
+            g.gain.setValueAtTime(0,context.currentTime)
+            g.gain.linearRampToValueAtTime(1,context.currentTime+ramp)
+
+            g.gain.setValueAtTime(1.0,duration)
+            g.gain.linearRampToValueAtTime(.0001,context.currentTime+duration+ramp)
+        }
+        
+        window.addEventListener("click", init)
+    </script>
+</body>
