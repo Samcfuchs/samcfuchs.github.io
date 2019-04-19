@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 
 <head>
+    <title>Ride The Bus</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <script src="http://cwilso.github.com/AudioContext-MonkeyPatch/AudioContextMonkeyPatch.js"></script>
 </head>
 
 <body>
@@ -15,8 +18,8 @@
             context = new AudioContext()
             document.body.style.backgroundColor = "black"
 
-            window.removeEventListener("touchstart",init)
-            window.addEventListener("touchstart", beep)
+            window.removeEventListener("click", init)
+            window.addEventListener("click", beep)
         }
 
         function beep() {
@@ -40,6 +43,7 @@
             g.gain.linearRampToValueAtTime(.0001,context.currentTime+duration+ramp)
         }
         
-        window.addEventListener("touchstart", init)
+        window.addEventListener("click", init)
+
     </script>
 </body>
