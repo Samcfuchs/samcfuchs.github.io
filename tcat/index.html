@@ -15,8 +15,8 @@
             context = new AudioContext()
             document.body.style.backgroundColor = "black"
 
-            window.removeEventListener("click",init)
-            window.addEventListener("mousedown", beep)
+            window.removeEventListener("touchstart",init)
+            window.addEventListener("touchstart", beep)
         }
 
         function beep() {
@@ -40,6 +40,6 @@
             g.gain.linearRampToValueAtTime(.0001,context.currentTime+duration+ramp)
         }
         
-        window.addEventListener("click", init)
+        window.addEventListener("touchstart", init)
     </script>
 </body>
