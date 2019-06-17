@@ -54,17 +54,14 @@ a:hover {
 	color: rgb(255, 149, 78);
 }
 
-#spotify:hover { color: #1db954; }
-
+#shake:hover { color: #b31b1b; }
+#ds:hover { color: #7d3c98; }
 #robots:hover { color: #1f419a; }
 
+#spotify:hover { color: #1db954; }
 #insta:hover { color: #e1306c; }
-
 #fb:hover { color: #3c5a99; }
-
-#shake:hover { color: #b31b1b; }
-
-#ds:hover { color: #7d3c98; }
+#li:hover { color: #0274B3; }
 
 #footer {
 	margin-top: 40px;
