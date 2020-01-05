@@ -1,3 +1,6 @@
 [submodule "datascience/Final-Project"]
 	path = datascience/Final-Project
 	url = https://github.com/TusharK54/CDS-Onboarding-Final-Project
+[submodule "ClimbingSimulator"]
+	path = ClimbingSimulator
+	url = https://github.com/Samcfuchs/ClimbingSimulator.git
