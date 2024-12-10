@@ -1,0 +1,44 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Mixed Emotions'
+theme = 'cactus'
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Photography"
+url = "/photo"
+weight = 1
+
+[[menu.main]]
+name = "Printing"
+url = "/print"
+weight = 2
+
+
+[params]
+description = "I'm trying a new tool to build my personal website"
+showProjectsList = true
+projectsUrl = "https://github.com/samcfuchs"
+mainSectionTitle = "Blog"
+mainSection = "blog"
+colortheme = "dark"
+
+[[params.social]]
+name = "github"
+link = "https://github.com/samcfuchs"
+
+[[params.social]]
+name = "email"
+link = "samcfuchs@gmail.com"
+
+[[params.social]]
+name = "linkedin"
+link = "https://www.linkedin.com/in/samcfuchs"
+
+[[params.social]]
+name = "instagram"
+link = "https://www.instagram.com/samcfuchs"
