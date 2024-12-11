@@ -1,8 +1,13 @@
+---
+title: "Photography"
+slug: "photo"
+---
+
 # Photography
 
 I take most of my photos on 35mm film.
 
-![palm trees lining the beach](56737_SFU_002_05.png)
+![](trees.png)
 
 I use the following cameras, in no particular order:
 - Minolta X-700

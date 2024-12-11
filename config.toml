@@ -18,6 +18,11 @@ name = "Printing"
 url = "/print"
 weight = 2
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 
 [params]
 description = "I'm trying a new tool to build my personal website"
