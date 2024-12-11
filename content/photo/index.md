@@ -1,13 +1,14 @@
 ---
 title: "Photography"
 slug: "photo"
+draft: false
 ---
 
 # Photography
 
 I take most of my photos on 35mm film.
 
-![](trees.png)
+![alt](trees.png)
 
 I use the following cameras, in no particular order:
 - Minolta X-700
