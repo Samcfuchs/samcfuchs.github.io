@@ -8,7 +8,7 @@ draft: false
 
 I take most of my photos on 35mm film.
 
-![alt](photo/trees.png)
+![alt](/photo/trees.png)
 
 I use the following cameras, in no particular order:
 - Minolta X-700
